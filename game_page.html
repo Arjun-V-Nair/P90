@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Math Quiz Game</title>
+       <link rel="shortcut icon" href="https://icon-library.com/images/plus-minus-icon-png/plus-minus-icon-png-13.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="game.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<span id="player1_name">person</span><span>=</span>  <span id="player1_score">0</span>
+<br>
+<span id="player2_name">person</span><span>=</span>  <span id="player2_score">0</span>
+<div class="container">
+    <center>
+        <h2 style="color:white;">The Math Quiz Game</h2>
+        <span>Question Turn:</span><span id="qt"></span>
+        <br>
+
+        <span>Answer Turn:</span><span id="at"></span>
+        <div id="output">
+            <span style="color: white;">6X6</span>
+            <h3 style="color: white;">Your Answer:</h3><span><input type="number"></span>
+            <br>
+            <br>
+            <br>
+            <p><button id="sa" class="btn btn-success">Send</button></p>
+
+        </div>
+        <h3>Number 1</h3>
+        <input type="number" class="form-control" placeholder="number 1">
+        <h3>Number 2</h3>
+        <input type="number" class="form-control" placeholder="number 2">
+        <br>
+        <br>
+        <br>
+        <br>
+        <button id="squy" class="btn-success">send question</button>
+    </center>
+</div>
+</body>
+</html>
